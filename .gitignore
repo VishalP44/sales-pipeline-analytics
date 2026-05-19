@@ -1,0 +1,17 @@
+# Ignore database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Ignore virtual environments
+venv/
+.venv/
+env/
+
+# Ignore OS generated files
+.DS_Store
