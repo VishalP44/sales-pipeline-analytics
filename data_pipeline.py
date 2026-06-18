@@ -5,7 +5,7 @@ import random
 from datetime import datetime, timedelta
 
 def generate_mock_salesforce_data(num_records=1000):
-    """Generates synthetic B2B CRM Opportunity data mirroring Salesforce/NVIDIA operations."""
+    """Generates synthetic B2B CRM opportunity data in a Salesforce-style schema."""
     np.random.seed(42)
     random.seed(42)
     

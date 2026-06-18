@@ -7,7 +7,7 @@ import plotly.express as px
 st.set_page_config(page_title="Sales Pipeline Analytics", layout="wide", page_icon="📈")
 
 st.title("📈 Sales Pipeline & Revenue Dashboard")
-st.markdown("Analytics dashboard mirroring NVIDIA's Sales Operations metrics: tracking pipeline health, win rates, and revenue forecasting.")
+st.markdown("Tracking pipeline health, win rates, and revenue forecasting across a synthetic B2B sales pipeline.")
 
 # Load Data
 @st.cache_data
